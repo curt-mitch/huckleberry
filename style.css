@@ -10,3 +10,44 @@ body {
 }
 
 /* Add styles here! */
+.intro-chunk {
+  padding: 10% 30% 5% 10%;
+  .title {
+    font-size: 3em;
+  }
+}
+
+p {
+  font-size: 2.5em;
+  strong {
+    color: #009966;
+  }
+}
+
+main {
+  background-color: #666;
+  padding: 5% 10%;
+}
+
+.indented-heading {
+  display: inline-block;
+  font-size: 3em;
+  background-color: #FFBF00;
+  padding: 0.5em 1em;
+  border-bottom: 8px solid #CC9900;
+  margin-bottom: 0;
+  margin-left: -0.5em;
+}
+
+.max-width-wrapper {
+  background-color: #FFF;
+}
+.card {
+  border-bottom: 1em solid #999;
+  p {
+    padding: 0.5em 1em 0.5em 1em;
+    &:first-of-type {
+      padding-bottom: 0;
+    }
+  }
+}
